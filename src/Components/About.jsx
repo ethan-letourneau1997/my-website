@@ -21,7 +21,7 @@ export default function About() {
       <Container className="about-container" id="about" fluid>
         <Row id="about">
           <Col xl={6} lg={6} md={12} className="about-col">
-            <h2>About Me</h2>
+            <h2 className="section-header">About Me</h2>
             <p>
               I am a self taught frontend developer with a master’s degree in
               information technology. I create responsive websites and
@@ -37,7 +37,7 @@ export default function About() {
       </Container>
       <Container fluid className="skills-container">
         <Row>
-          <h2 className="skills-head skill-col d-flex justify-content-center align-items-center">
+          <h2 className="section-header skill-col d-flex justify-content-center align-items-center">
             My Skills
           </h2>
         </Row>

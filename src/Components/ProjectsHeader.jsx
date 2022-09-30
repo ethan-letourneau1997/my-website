@@ -4,7 +4,7 @@ export default function ProjectsHeader() {
   return (
     <Container className="proj-header-cont" fluid>
       <Row>
-        <h2 className="d-flex justify-content-center align-items-center">
+        <h2 className="d-flex justify-content-center align-items-center section-header">
           My Projects
         </h2>
       </Row>

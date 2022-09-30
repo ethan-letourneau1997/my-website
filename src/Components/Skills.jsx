@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <Container fluid className="skills-container">
       <Row>
-        <h2 className="skills-head skill-col d-flex justify-content-center align-items-center">
+        <h2 className="section-header skill-col d-flex justify-content-center align-items-center">
           My Skills
         </h2>
       </Row>

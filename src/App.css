@@ -138,11 +138,6 @@ html {
   justify-content: center;
 }
 
-.about-col h2 {
-  font-size: 42px;
-  padding-bottom: 30px;
-}
-
 .about-col p {
   padding-left: 1vw;
 
@@ -331,10 +326,6 @@ html {
   ); */
 }
 
-.proj-header-cont h2 {
-  font-size: 45px;
-}
-
 .proj-cont {
   background-color: #020607;
   /* background-color: #262628; */
@@ -430,10 +421,6 @@ html {
   border-left: 2px solid #e76c6c;
   padding-left: 20px;
   margin-bottom: 20px;
-}
-
-.project-header h2 {
-  font-size: 1.8rem;
 }
 
 .project-header h3 {
@@ -542,14 +529,18 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
+  /* General */
+  .section-header {
+    font-size: 34px;
+  }
+
   /* Homepage */
-  @media only screen and (max-width: 600px) {
-    .homepage-container h1 {
-      font-size: 30px;
-    }
-    .homepage-container h2 {
-      font-size: 20px;
-    }
+
+  .homepage-container h1 {
+    font-size: 30px;
+  }
+  .homepage-container h2 {
+    font-size: 20px;
   }
 
   /* About */
@@ -581,6 +572,29 @@ html {
   .skills-container p {
     font-size: 16px;
     margin-bottom: 0;
+  }
+
+  /* Projects */
+
+  .project-header h2 {
+    font-size: 25px;
+  }
+
+  .project-header h3 {
+    font-size: 20px;
+  }
+
+  .img-div {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .proj-skills {
+    font-size: 16px;
+  }
+
+  .proj-skills svg {
+    font-size: 22px;
   }
 }
 

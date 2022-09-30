@@ -5,7 +5,11 @@ import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
 
 export default function Homepage() {
   return (
-    <ParallaxBanner className="para-banner" style={{ aspectRatio: "2 / 1" }}>
+    <ParallaxBanner
+      id="home"
+      className="para-banner"
+      style={{ aspectRatio: "2 / 1" }}
+    >
       <ParallaxBannerLayer className="layer1" image={van} speed={20} />
 
       <ParallaxBannerLayer

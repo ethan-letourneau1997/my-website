@@ -10,7 +10,7 @@ export default function Contact() {
   const handleShow = () => setShow(true);
 
   return (
-    <Container className="contact-container" fluid>
+    <Container id="contact" className="contact-container" fluid>
       <Row>
         <h2 className="d-flex justify-content-center section-header">
           Contact Me

@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 export default function Project() {
   return (
-    <Container className="project-container" fluid>
+    <Container className="project-container" id="projects" fluid>
       <Row>
         <Col className="project-col even" xl={6} lg={6} md={12}>
           <div className="project-header">

@@ -19,7 +19,7 @@ export default function About() {
         <div className="target" ref={targetRef}></div>
       </Container>
       <Container className="about-container" id="about" fluid>
-        <Row>
+        <Row id="about">
           <Col xl={6} lg={6} md={12} className="about-col">
             <h2>About Me</h2>
             <p>

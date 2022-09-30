@@ -12,10 +12,22 @@ export default function Project() {
           </div>
           <div className="img-div great-outdoors-img">
             <div className="button-wrapper">
-              <Button variant="light" size="lg">
+              <Button
+                variant="light"
+                size="lg"
+                href="https://great-outdoors-inv-management.herokuapp.com/catalog/items"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Demo
               </Button>
-              <Button variant="light" size="lg">
+              <Button
+                variant="light"
+                size="lg"
+                href="https://github.com/ethan-letourneau1997/Great-Outdoors-Inventory-Management"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Code
               </Button>
             </div>
@@ -90,13 +102,26 @@ export default function Project() {
 
           <div className="img-div resume-img">
             <div className="button-wrapper">
-              <Button variant="light" size="lg">
+              <Button
+                variant="light"
+                size="lg"
+                hrefDemo="https://resume-project-two.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Demo
               </Button>
-              <Button variant="light" size="lg">
+              <Button
+                variant="light"
+                size="lg"
+                hrefCode="https://github.com/ethan-letourneau1997/resume-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Code
               </Button>
             </div>
+            \
           </div>
           <div className="proj-skills">
             <span>Made With:</span>
@@ -117,10 +142,22 @@ export default function Project() {
 
           <div className="img-div calc-img">
             <div className="button-wrapper">
-              <Button variant="light" size="lg">
+              <Button
+                variant="light"
+                size="lg"
+                href="https://calculator-ia6lr48wx-ethan-letourneau1997.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Demo
               </Button>
-              <Button variant="light" size="lg">
+              <Button
+                variant="light"
+                size="lg"
+                href="https://github.com/ethan-letourneau1997/calculator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Code
               </Button>
             </div>
@@ -143,7 +180,13 @@ export default function Project() {
               <Button variant="light" size="lg">
                 Demo
               </Button>
-              <Button variant="light" size="lg">
+              <Button
+                variant="light"
+                size="lg"
+                href="https://github.com/ethan-letourneau1997/weather-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Code
               </Button>
             </div>

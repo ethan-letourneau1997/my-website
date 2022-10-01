@@ -109,7 +109,13 @@ export default function Project() {
           <div className="img-div nasa-img">
             <div className="image-shell d-none d-lg-block">
               <div className="button-wrapper">
-                <Button variant="light" size="lg">
+                <Button
+                  variant="light"
+                  size="lg"
+                  href="https://nasa-redux-beige.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Demo
                 </Button>
                 <Button variant="light" size="lg">

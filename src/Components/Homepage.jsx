@@ -10,7 +10,7 @@ export default function Homepage() {
       className="para-banner"
       style={{ aspectRatio: "2 / 1" }}
     >
-      <ParallaxBannerLayer className="layer1" image={van} speed={20} />
+      <ParallaxBannerLayer className="layer1" image={van} speed={-20} />
 
       <ParallaxBannerLayer
         speed={-10}

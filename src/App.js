@@ -1,4 +1,5 @@
 import Homepage from "./Components/Homepage";
+import MobileHomepage from "./Components/MobileHomepage";
 import React from "react";
 import Navigation from "./Components/Navigation";
 import About from "./Components/About";
@@ -10,7 +11,13 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Homepage />
+      <div className="d-none d-lg-block">
+        <Homepage />
+      </div>
+      <div className="d-lg-none">
+        <MobileHomepage />
+      </div>
+
       <About />
       <ProjectsHeader />
       <Project />

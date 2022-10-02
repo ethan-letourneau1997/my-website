@@ -1,39 +1,20 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Icon } from "@iconify/react";
+import Proj from "./Proj";
+import MobileButns from "./MobileButns";
 
 export default function Project() {
   return (
     <Container className="project-container" id="projects" fluid>
       <Row>
         <Col className="project-col even" xl={6} lg={6} md={12}>
-          <div className="project-header">
-            <h2>Great Outdoors</h2>
-            <h3>Inventory Management Application</h3>
-          </div>
-          <div className="img-div great-outdoors-img">
-            <div className="image-shell d-none d-lg-block">
-              <div className="button-wrapper">
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://great-outdoors-inv-management.herokuapp.com/catalog/items"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </Button>
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://github.com/ethan-letourneau1997/Great-Outdoors-Inventory-Management"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Code
-                </Button>
-              </div>
-            </div>
-          </div>
+          <Proj
+            name="Great Outdoors"
+            description="Inventory Management Application"
+            imageClass="great-outdoors-img"
+            demo="https://great-outdoors-inv-management.herokuapp.com/catalog/items"
+            code="https://github.com/ethan-letourneau1997/Great-Outdoors-Inventory-Management"
+          />
           <div className="proj-skills">
             <span>Made With:</span>
             <Icon icon="vscode-icons:file-type-html" />
@@ -43,45 +24,20 @@ export default function Project() {
             <Icon icon="fontisto:nodejs" />
             <Icon icon="logos:mongodb-icon" />
           </div>
-          <div className="mob-button-wrapper d-lg-none">
-            <Button
-              size="sm"
-              variant="outline-light"
-              href="https://great-outdoors-inv-management.herokuapp.com/catalog/items"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Demo
-            </Button>
-            <Button
-              size="sm"
-              variant="outline-light"
-              href="https://github.com/ethan-letourneau1997/Great-Outdoors-Inventory-Management"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </Button>
-          </div>
+          <MobileButns
+            demo="https://great-outdoors-inv-management.herokuapp.com/catalog/items"
+            code="https://github.com/ethan-letourneau1997/Great-Outdoors-Inventory-Management"
+          />
         </Col>
         <Col className="project-col even" xl={6} lg={6} md={12}>
-          <div className="project-header">
-            <h2>Connect Social</h2>
-            <h3>Responsive Social Media Landing Page</h3>
-          </div>
+          <Proj
+            name="Connect Social"
+            description="Responsive Social Media Landing Page"
+            imageClass="connect-social-img"
+            demo="https://connect-social-bxu2.vercel.app/"
+            code="https://github.com/ethan-letourneau1997/Connect-Social"
+          />
 
-          <div className="img-div connect-social-img">
-            <div className="image-shell d-none d-lg-block">
-              <div className="button-wrapper">
-                <Button variant="light" size="lg">
-                  Demo
-                </Button>
-                <Button variant="light" size="lg">
-                  Code
-                </Button>
-              </div>
-            </div>
-          </div>
           <div className="proj-skills">
             <span>Made With:</span>
             <Icon icon="vscode-icons:file-type-html" />
@@ -91,39 +47,21 @@ export default function Project() {
             <Icon icon="logos:webpack" />
             <Icon icon="logos:react" />
           </div>
-          <div className="mob-button-wrapper d-lg-none">
-            <Button size="sm" variant="outline-light">
-              Demo
-            </Button>
-            <Button size="sm" variant="outline-light">
-              Code
-            </Button>
-          </div>
+          <MobileButns
+            demo="https://connect-social-bxu2.vercel.app/"
+            code="https://github.com/ethan-letourneau1997/Connect-Social"
+          />
         </Col>
 
         <Col className="project-col odd" xl={6} lg={6} md={12}>
-          <div className="project-header">
-            <h2>NASA</h2>
-            <h3>NASA Homepage Refresh</h3>
-          </div>
-          <div className="img-div nasa-img">
-            <div className="image-shell d-none d-lg-block">
-              <div className="button-wrapper">
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://nasa-redux-beige.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </Button>
-                <Button variant="light" size="lg">
-                  Code
-                </Button>
-              </div>
-            </div>
-          </div>
+          <Proj
+            name="NASA"
+            description="NASA Homepage Refresh"
+            imageClass="nasa-img"
+            demo="https://nasa-redux-beige.vercel.app/"
+            code="https://nasa-redux-ethan-letourneau1997.vercel.app/"
+          />
+
           <div className="proj-skills">
             <span>Made With:</span>
             <Icon icon="vscode-icons:file-type-html" />
@@ -133,45 +71,20 @@ export default function Project() {
             <Icon icon="logos:webpack" />
             <Icon icon="logos:react" />
           </div>
-          <div className="mob-button-wrapper d-lg-none">
-            <Button size="sm" variant="outline-light">
-              Demo
-            </Button>
-            <Button size="sm" variant="outline-light">
-              Code
-            </Button>
-          </div>
+          <MobileButns
+            demo="https://nasa-redux-beige.vercel.app/"
+            code="https://nasa-redux-ethan-letourneau1997.vercel.app/"
+          />
         </Col>
         <Col className="project-col odd" xl={6} lg={6} md={12}>
-          <div className="project-header">
-            <h2>Resume Bulder</h2>
-            <h3>View and Build Resumes</h3>
-          </div>
+          <Proj
+            name="Resume Bulder"
+            description="View and Build Resumes"
+            imageClass="resume-img"
+            demo="https://resume-project-two.vercel.app/"
+            code="https://github.com/ethan-letourneau1997/resume-project"
+          />
 
-          <div className="img-div resume-img">
-            <div className="image-shell d-none d-lg-block">
-              <div className="button-wrapper">
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://resume-project-two.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </Button>
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://github.com/ethan-letourneau1997/resume-project"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Code
-                </Button>
-              </div>
-            </div>
-          </div>
           <div className="proj-skills">
             <span>Made With:</span>
             <Icon icon="vscode-icons:file-type-html" />
@@ -182,108 +95,39 @@ export default function Project() {
             <Icon icon="logos:webpack" />
             <Icon icon="logos:react" />
           </div>
-          <div className="mob-button-wrapper d-lg-none">
-            <Button
-              size="sm"
-              variant="outline-light"
-              href="https://resume-project-two.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Demo
-            </Button>
-            <Button
-              size="sm"
-              variant="outline-light"
-              href="https://github.com/ethan-letourneau1997/resume-project"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </Button>
-          </div>
+          <MobileButns
+            demo="https://resume-project-two.vercel.app/"
+            code="https://github.com/ethan-letourneau1997/resume-project"
+          />
         </Col>
         <Col className="project-col even" xl={6} lg={6} md={12}>
-          <div className="project-header">
-            <h2>Calculator</h2>
-            <h3>Simple Calculator Application</h3>
-          </div>
+          <Proj
+            name="Calculator"
+            description="Simple Calculator Application<"
+            imageClass="calc-img"
+            demo="https://calculator-ia6lr48wx-ethan-letourneau1997.vercel.app/"
+            code="https://github.com/ethan-letourneau1997/calculator"
+          />
 
-          <div className="img-div calc-img">
-            <div className="image-shell d-none d-lg-block">
-              <div className="button-wrapper">
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://calculator-ia6lr48wx-ethan-letourneau1997.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </Button>
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://github.com/ethan-letourneau1997/calculator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Code
-                </Button>
-              </div>
-            </div>
-          </div>
           <div className="proj-skills">
             <span>Made With:</span>
             <Icon icon="vscode-icons:file-type-html" />
             <Icon icon="vscode-icons:file-type-css" />
             <Icon icon="logos:javascript" />
           </div>
-          <div className="mob-button-wrapper d-lg-none">
-            <Button
-              size="sm"
-              variant="outline-light"
-              href="https://calculator-ia6lr48wx-ethan-letourneau1997.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Demo
-            </Button>
-            <Button
-              size="sm"
-              variant="outline-light"
-              href="https://github.com/ethan-letourneau1997/calculator"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </Button>
-          </div>
+          <MobileButns
+            demo="https://calculator-ia6lr48wx-ethan-letourneau1997.vercel.app/"
+            code="https://github.com/ethan-letourneau1997/calculator"
+          />
         </Col>
         <Col className="project-col even" xl={6} lg={6} md={12}>
-          <div className="project-header">
-            <h2>Weather Forecast</h2>
-            <h3>Weather Forecast App using openweather API</h3>
-          </div>
-
-          <div className="img-div weather-img">
-            <div className="image-shell d-none d-lg-block">
-              <div className="button-wrapper">
-                <Button variant="light" size="lg">
-                  Demo
-                </Button>
-                <Button
-                  variant="light"
-                  size="lg"
-                  href="https://github.com/ethan-letourneau1997/weather-app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Code
-                </Button>
-              </div>
-            </div>
-          </div>
+          <Proj
+            name="Weather Forecast"
+            description="Weather Forecast App using openweather API"
+            imageClass="weather-img"
+            demo=""
+            code="https://github.com/ethan-letourneau1997/weather-app"
+          />
           <div className="proj-skills">
             <span>Made With:</span>
             <Icon icon="vscode-icons:file-type-html" />
@@ -291,20 +135,10 @@ export default function Project() {
             <Icon icon="logos:javascript" />
             <Icon icon="logos:bootstrap" />
           </div>
-          <div className="mob-button-wrapper d-lg-none">
-            <Button size="sm" variant="outline-light">
-              Demo
-            </Button>
-            <Button
-              size="sm"
-              variant="outline-light"
-              href="https://github.com/ethan-letourneau1997/weather-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </Button>
-          </div>
+          <MobileButns
+            demo=""
+            code="https://github.com/ethan-letourneau1997/weather-app"
+          />
         </Col>
       </Row>
     </Container>

@@ -5,15 +5,10 @@
   align-items: center;
 }
 
-.test {
-  font-size: 100px;
-  color: black !important;
-}
-
 /* General */
 
 :root {
-  --red: #e76c6c;
+  --red: #f65d5d;
 }
 
 html {
@@ -38,16 +33,8 @@ html {
 }
 
 .section-header {
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.app {
-  scroll-snap-type: y mandatory;
-}
-
-.scroll-snap {
-  scroll-snap-align: start;
+  font-size: 48px;
+  font-weight: 500;
 }
 
 /* Navbar */
@@ -97,13 +84,19 @@ html {
 
 .homepage-container h1 {
   color: var(--red);
-  font-size: 80px;
+  font-size: 72px;
   font-weight: 600;
 }
 
 .homepage-container h2 {
   color: white;
-  font-size: 60px;
+  font-size: 48px;
+}
+
+.homepage-butn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
 
 /* About */
@@ -125,9 +118,9 @@ html {
 
 .about-col p {
   padding-left: 15px;
-
+  margin-top: 20px;
   font-size: 18px;
-  border-left: 2px solid #e76c6c;
+  border-left: 3px solid #e76c6c;
   width: 70%;
 }
 
@@ -149,11 +142,6 @@ html {
   padding-left: 6vw !important;
   padding-right: 6vw !important;
   padding-bottom: 10vh;
-}
-
-.skills-head {
-  font-size: 42px;
-  padding-bottom: 20px;
 }
 
 .skill-col {
@@ -181,7 +169,7 @@ html {
 }
 
 .skills-container div {
-  font-size: 50px;
+  font-size: 48px;
 }
 
 .skills-container p {
@@ -207,14 +195,14 @@ html {
 }
 
 .project-header {
-  border-left: 2px solid #e76c6c;
+  border-left: 3px solid #e76c6c;
   padding-left: 20px;
   margin-bottom: 20px;
 }
 
 .project-header h3 {
   font-weight: 200;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 .img-div {
@@ -250,7 +238,7 @@ html {
 }
 
 .proj-skills {
-  font-size: 22px;
+  font-size: 20px;
   display: flex;
   gap: 15px;
   padding-top: 20px;
@@ -327,7 +315,7 @@ html {
 }
 
 .right-col svg {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .modal-btn {
@@ -353,16 +341,6 @@ html {
   align-items: center;
 }
 
-.mob-home-container h1 {
-  color: #e76c6c;
-  font-weight: 600;
-  font-size: 35px;
-}
-
-.mob-home-container h2 {
-  font-size: 28px;
-}
-
 @media only screen and (max-width: 992px) {
   .homepage-container {
     background-image: url("./img/webp/van.webp");
@@ -371,10 +349,10 @@ html {
   }
 
   .homepage-container h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   .homepage-container h2 {
-    font-size: 55px;
+    font-size: 48px;
   }
 }
 
@@ -387,10 +365,10 @@ html {
   /* Homepage */
 
   .homepage-container h1 {
-    font-size: 35px;
+    font-size: 36px;
   }
   .homepage-container h2 {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 100px;
   }
 
@@ -418,7 +396,7 @@ html {
     margin: 0;
   }
   .skills-container div {
-    font-size: 30px;
+    font-size: 28px;
   }
   .skills-container p {
     font-size: 16px;
@@ -428,7 +406,7 @@ html {
   /* Projects */
 
   .project-header h2 {
-    font-size: 25px;
+    font-size: 26px;
   }
 
   .project-header h3 {
@@ -453,6 +431,10 @@ html {
   .left-col {
     justify-content: center;
   }
+}
+
+.resume-butn {
+  margin-top: 20px;
 }
 
 /* Fonts */

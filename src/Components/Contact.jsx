@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Modal } from "react-bootstrap";
+import { Container, Row, Col, Button, Modal, Dropdown } from "react-bootstrap";
 import { useState } from "react";
 import headshot from "../img/webp/ethan-headshot.webp";
 import { Icon } from "@iconify/react";
@@ -48,6 +48,17 @@ export default function Contact() {
               rel="noopener noreferrer"
             >
               <Icon icon="bi:github" />
+            </Button>
+          </div>
+          <div>
+            <Button
+              href="https://resume-site-kappa.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="outline-light"
+              className="resume-butn"
+            >
+              My Resume
             </Button>
           </div>
         </Col>

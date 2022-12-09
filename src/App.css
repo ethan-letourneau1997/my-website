@@ -63,6 +63,320 @@ html {
   background-color: #020607 !important;
 }
 
+/* Project Card General */
+
+.card-container {
+  background-color: rgb(20, 20, 20);
+  /* background-color: hsl(240, 4%, 12%); */
+  padding: 72px !important;
+}
+
+.card-col {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-wrapper {
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.card:hover .card-img-wrapper {
+  /* transform: scale(1.2); */
+  background-size: 110%;
+}
+
+.card-content {
+  opacity: 0;
+  background-color: #262628a2;
+  background-color: hsla(0, 0%, 5%);
+  background-color: #1e1f21;
+  background-color: #151e2b;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: opacity 0.3s linear;
+}
+
+.card-content p {
+  width: 80%;
+  font-family: "San Francisco";
+  font-size: 18px;
+  text-align: center;
+}
+
+.card:hover .card-content {
+  opacity: 100;
+}
+
+.card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 368px !important;
+  width: 98%;
+  border-radius: 10px !important;
+  border: 0 !important;
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+
+.card-btns {
+  display: flex;
+  gap: 30px;
+}
+
+.card-butn {
+  border: 1px solid #f65d5d !important;
+  border-radius: 12px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  font-size: 16px !important;
+}
+
+.card-btns .btn-outline-light:hover {
+  background-color: #f65d5d !important;
+  color: white !important;
+}
+
+/* Project Card Specific */
+
+.card1-wrapper {
+  background: url("./img/card-img/card-img.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+.card2-wrapper {
+  background: url("./img/card-img/tile3.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+.testContainer {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px !important;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px !important;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: hsla(0, 0%, 5%);
+  background-color: #1e1f21;
+  background-color: #151e2b;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease;
+  border-radius: 10px !important;
+}
+
+.testContainer:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text p {
+  font-family: "San Francisco";
+}
+
+/* Old Card */
+
+.card1 {
+  background: url("./img/card-img/card1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card1:hover .card1-hover {
+  display: block;
+}
+
+.card1:hover .card-wrapper1 {
+  display: none;
+}
+
+.card1-hover {
+  display: none;
+}
+
+.card-wrapper1 {
+  height: 240px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: hsla(188, 44%, 32%, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tent-outer {
+  width: 0;
+  height: 0;
+  border: 30px solid red;
+  border-top: 0;
+  border-bottom: 50px solid transparent;
+}
+
+.tent-row {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: white;
+}
+
+.card1-text {
+  font-family: "Alata", sans-serif;
+  font-size: 30px;
+}
+
+.card2 {
+  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card2 p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 26px;
+}
+
+.card2-icon {
+  font-size: 35px;
+}
+
+.card3 {
+  background: url("./img/card-img/card3-bg.png");
+  /* background-position: center; */
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3-wrapper {
+  height: 110px;
+}
+
+.card3 img {
+  height: 100%;
+  width: auto;
+}
+
+.card4 {
+  background-color: #4a4e69 !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card4 p {
+  font-size: 50px;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700px;
+  font-family: "San Francisco";
+  margin: 0;
+}
+
+.card4 span {
+  font-weight: 700px;
+  font-family: "San Francisco";
+  font-size: 18px;
+}
+
+.vert-line {
+  height: 50px;
+  width: 2px;
+  background-color: white;
+}
+
+.card4-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card5 {
+  background-color: #212121 !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-screen {
+  background-color: #81b29a;
+  height: 60px;
+  width: 80%;
+  border-radius: 10px;
+  font-family: "Arial Black", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.card6 {
+  background: url("./img/card-img/clouds.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.card6-wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: hsla(213, 76%, 45%, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card6 p {
+  margin: 0;
+  font-size: 35px;
+  font-family: "San Francisco";
+}
+
+/********************/
+
 /* Homepage */
 
 .para-banner {
@@ -75,6 +389,10 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: url("./img/webp/heroTint20.webp");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 15vh;
 }
 
 .home-header-row {
@@ -97,6 +415,11 @@ html {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+}
+
+.homepage-butn-wrapper .btn {
+  font-weight: bold;
+  border: 1.5px solid white;
 }
 
 /* About */
@@ -138,6 +461,7 @@ html {
 
 .skills-container {
   background-color: #020607;
+
   color: white;
   padding-left: 6vw !important;
   padding-right: 6vw !important;
@@ -165,7 +489,14 @@ html {
   );
   width: 100%;
   padding: 30px;
+  border-radius: 10px;
   margin: 0 !important;
+  background-color: hsla(0, 100%, 100%, 0.11);
+  box-shadow:
+		/* offset-x | offset-y | blur-radius | spread-radius | color */ 0px
+      6px 10px 0px hsla(0, 0%, 0%, 0.14),
+    0px 1px 18px 0px hsla(0, 0%, 0%, 0.12),
+    0px 3px 5px -1px hsla(0, 0%, 0%, 0.2);
 }
 
 .skills-container div {
@@ -181,23 +512,41 @@ html {
 
 .proj-header-cont {
   background-color: #020607;
+  /* background-color: #131313; */
   padding-bottom: 50px;
 }
 
 .project-container {
   background-color: #020607;
-  padding-left: 5vw !important;
+  /* background-color: #131313; */
+  /* padding-left: 5vw !important; */
   scroll-margin-top: 25vh;
 }
 
 .project-col {
   padding-bottom: 70px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+
+  /* padding-left: 5vw !important; */
+}
+
+.proj-div {
+  background: hsl(0, 3%, 10%);
+  padding-left: 40px;
+  padding-top: 35px;
+}
+
+.proj-skills {
+  background: hsl(0, 3%, 10%);
+  padding-bottom: 30px;
+  padding-left: 40px;
 }
 
 .project-header {
   border-left: 3px solid #e76c6c;
   padding-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .project-header h3 {
@@ -205,8 +554,16 @@ html {
   font-size: 24px;
 }
 
+/* .odd {
+  background-color: hsl(180, 3%, 7%);
+} */
+
+.even {
+  /* background-color: hsl(0, 100%, 50%); */
+}
+
 .img-div {
-  width: 90%;
+  width: 95%;
   height: 50vh;
   align-self: center;
 }
@@ -232,9 +589,13 @@ html {
 
 .mob-button-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   padding-top: 20px;
+}
+
+.mob-button-wrapper .btn {
+  width: 100px;
 }
 
 .proj-skills {
@@ -353,6 +714,23 @@ html {
   }
   .homepage-container h2 {
     font-size: 48px;
+  }
+
+  .proj-div {
+    background: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+
+  .img-div {
+  }
+
+  .proj-skills {
+    background: transparent;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -483,4 +861,11 @@ html {
   font-family: Graphik;
   font-weight: 900;
   src: url("./fonts/GraphikBlack.otf") format("opentype");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }

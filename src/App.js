@@ -6,6 +6,7 @@ import About from "./Components/About";
 import ProjectsHeader from "./Components/ProjectsHeader";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
+import ProjectCards from "./Components/ProjectCards";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="d-none d-lg-block">
         <Homepage />
       </div>
+
       <div className="d-lg-none">
         <MobileHomepage />
       </div>

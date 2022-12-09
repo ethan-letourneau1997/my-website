@@ -16,7 +16,7 @@ export default function Project() {
             code="https://github.com/ethan-letourneau1997/Great-Outdoors-Inventory-Management"
           />
           <div className="proj-skills">
-            <span>Made With:</span>
+            <span>Built With:</span>
             <Icon icon="vscode-icons:file-type-html" />
             <Icon icon="vscode-icons:file-type-css" />
             <Icon icon="logos:javascript" />
@@ -39,7 +39,7 @@ export default function Project() {
           />
 
           <div className="proj-skills">
-            <span>Made With:</span>
+            <span>Built With:</span>
             <Icon icon="vscode-icons:file-type-html" />
             <Icon icon="vscode-icons:file-type-css" />
             <Icon icon="logos:javascript" />
@@ -63,7 +63,7 @@ export default function Project() {
           />
 
           <div className="proj-skills">
-            <span>Made With:</span>
+            <span>Built With:</span>
             <Icon icon="vscode-icons:file-type-html" />
             <Icon icon="vscode-icons:file-type-css" />
             <Icon icon="logos:javascript" />
@@ -86,7 +86,7 @@ export default function Project() {
           />
 
           <div className="proj-skills">
-            <span>Made With:</span>
+            <span>Built With:</span>
             <Icon icon="vscode-icons:file-type-html" />
             <Icon icon="vscode-icons:file-type-css" />
             <Icon icon="logos:javascript" />
@@ -103,14 +103,14 @@ export default function Project() {
         <Col className="project-col even" xl={6} lg={6} md={12}>
           <Proj
             name="Calculator"
-            description="Simple Calculator Application<"
+            description="Simple Calculator Application"
             imageClass="calc-img"
             demo="https://calculator-ia6lr48wx-ethan-letourneau1997.vercel.app/"
             code="https://github.com/ethan-letourneau1997/calculator"
           />
 
           <div className="proj-skills">
-            <span>Made With:</span>
+            <span>Built With:</span>
             <Icon icon="vscode-icons:file-type-html" />
             <Icon icon="vscode-icons:file-type-css" />
             <Icon icon="logos:javascript" />
@@ -129,16 +129,12 @@ export default function Project() {
             code="https://github.com/ethan-letourneau1997/weather-app"
           />
           <div className="proj-skills">
-            <span>Made With:</span>
+            <span>Built With:</span>
             <Icon icon="vscode-icons:file-type-html" />
             <Icon icon="vscode-icons:file-type-css" />
             <Icon icon="logos:javascript" />
             <Icon icon="logos:bootstrap" />
           </div>
-          <MobileButns
-            demo=""
-            code="https://github.com/ethan-letourneau1997/weather-app"
-          />
         </Col>
       </Row>
     </Container>

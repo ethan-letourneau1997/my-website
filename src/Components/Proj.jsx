@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap";
 
 export default function Proj(props) {
   return (
-    <div>
+    <div className="proj-div">
       <div className="project-header">
         <h2>{props.name}</h2>
         <h3>{props.description}</h3>

@@ -12,12 +12,12 @@ export default function ProjectCards() {
 
   // const enterCard1 = () => {
   //   setCard1(true);
-  //   console.log("wtf");
+  //   console.log("testing, testing");
   // };
 
   // const leaveCard1 = () => {
   //   setCard1(false);
-  //   console.log("wtf");
+  //   console.log("testing, testing");
   // };
 
   return (
@@ -114,9 +114,6 @@ export default function ProjectCards() {
             </div>
           </div>
         </Col>
-
-        {/* <Col className="card-col"></Col>
-        <Col className="card-col"></Col> */}
       </Row>
     </Container>
   );

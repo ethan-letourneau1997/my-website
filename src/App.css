@@ -184,6 +184,11 @@ html {
   border-radius: 10px !important;
 }
 
+/* .calc-img {
+  border-radius: 2px;
+
+} */
+
 .testContainer:hover .overlay {
   bottom: 0;
   height: 100%;

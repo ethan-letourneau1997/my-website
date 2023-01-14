@@ -1,7 +1,4 @@
 import { Container, Row, Button } from "react-bootstrap";
-import hero from "../img/webp/heroTint20.webp";
-
-import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
 
 export default function Homepage() {
   return (

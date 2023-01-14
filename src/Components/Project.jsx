@@ -6,6 +6,9 @@ import MobileButns from "./MobileButns";
 export default function Project() {
   return (
     <Container className="project-container" id="projects" fluid>
+      <p className="d-flex justify-content-center align-items-center ">
+        *** Hover over a project for more options ***
+      </p>
       <Row>
         <Col className="project-col even" xl={6} lg={6} md={12}>
           <Proj
@@ -81,8 +84,8 @@ export default function Project() {
             name="Resume Bulder"
             description="View and Build Resumes"
             imageClass="resume-img"
-            demo="https://resume-project-two.vercel.app/"
-            code="https://github.com/ethan-letourneau1997/resume-project"
+            demo="https://resume-builder-v-2.vercel.app/"
+            code="https://github.com/ethan-letourneau1997/resumeBuilderV.2"
           />
 
           <div className="proj-skills">
